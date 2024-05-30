@@ -6,7 +6,7 @@ user_input = input("Enter the string to check if it's a palindrome: ")
 def isPalindrome(s1):
     """
 
-    :param s1: 
+    :param s1:
 
     """
     s2 = s1[::-1]
@@ -24,7 +24,7 @@ print(isPalindrome(user_input))
 def isPalindrome_(s1):
     """
 
-    :param s1: 
+    :param s1:
 
     """
     low = 0

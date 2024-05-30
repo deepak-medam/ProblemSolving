@@ -7,8 +7,8 @@ s2 = "AC"
 def isSubSequence(s1, s2):
     """
 
-    :param s1: 
-    :param s2: 
+    :param s1:
+    :param s2:
 
     """
     index = 0
@@ -24,8 +24,8 @@ def isSubSequence(s1, s2):
 def isSubSeq(S1, S2):
     """
 
-    :param S1: 
-    :param S2: 
+    :param S1:
+    :param S2:
 
     """
     i, j = 0, 0
@@ -47,10 +47,10 @@ print(isSubSeq(s1, s2))
 def isSubSeq(s1, s2, m, n):
     """
 
-    :param s1: 
-    :param s2: 
-    :param m: 
-    :param n: 
+    :param s1:
+    :param s2:
+    :param m:
+    :param n:
 
     """
     if n == 0:
