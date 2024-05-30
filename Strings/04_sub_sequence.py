@@ -5,6 +5,12 @@ s2 = "AC"
 
 
 def isSubSequence(s1, s2):
+    """
+
+    :param s1: 
+    :param s2: 
+
+    """
     index = 0
     for char in s1:
         if char == s2[index]:
@@ -16,6 +22,12 @@ def isSubSequence(s1, s2):
 
 ################################ Method 02 #################################
 def isSubSeq(S1, S2):
+    """
+
+    :param S1: 
+    :param S2: 
+
+    """
     i, j = 0, 0
     while i < len(s1) and j < len(s2):
         if s1[i] == s2[j]:
@@ -33,6 +45,14 @@ print(isSubSeq(s1, s2))
 
 
 def isSubSeq(s1, s2, m, n):
+    """
+
+    :param s1: 
+    :param s2: 
+    :param m: 
+    :param n: 
+
+    """
     if n == 0:
         return True
     if m == 0:
