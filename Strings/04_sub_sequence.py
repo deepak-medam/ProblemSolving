@@ -17,7 +17,7 @@ def isSubSequence(s1, s2):
 ################################ Method 02 #################################
 def isSubSeq(S1, S2):
     i, j = 0, 0
-    while (i < len(s1) and j < len(s2)):
+    while i < len(s1) and j < len(s2):
         if s1[i] == s2[j]:
             j += 1
         i += 1
@@ -37,7 +37,7 @@ def isSubSeq(s1, s2, m, n):
         return True
     if m == 0:
         return False
-    if s1[n-1] == s2[m-1]:
-        return isSubSeq(s1, s2, m-1, n-1)
+    if s1[n - 1] == s2[m - 1]:
+        return isSubSeq(s1, s2, m - 1, n - 1)
     else:
-        return isSubSeq(s1, s2, m-1, n)
+        return isSubSeq(s1, s2, m - 1, n)

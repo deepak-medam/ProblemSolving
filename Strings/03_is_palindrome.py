@@ -18,7 +18,7 @@ print(isPalindrome(user_input))
 
 def isPalindrome_(s1):
     low = 0
-    high = len(s1)-1
+    high = len(s1) - 1
     while low < high:
         if s1[low] != s1[high]:
             print("No")

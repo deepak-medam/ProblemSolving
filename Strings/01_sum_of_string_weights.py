@@ -12,6 +12,7 @@ abc
 Sample Output :
 294
 """
+
 ################################ Solution ################################
 userInput = input()
 weight = 0
