@@ -1,4 +1,9 @@
 def fun(count):
+    """
+
+    :param count: 
+
+    """
     if count == 0:
         return
     print("Recursion is fun.")

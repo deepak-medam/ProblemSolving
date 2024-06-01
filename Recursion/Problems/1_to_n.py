@@ -1,5 +1,10 @@
 # Problem 01
 def print1toN(n):
+    """
+
+    :param n: 
+
+    """
     if n == 0:
         return
     print1toN(n - 1)
@@ -40,6 +45,11 @@ print1toN(4)
 
 
 def printNos(self, N):
+    """
+
+    :param N: 
+
+    """
     # Your code here
     if N == 0:
         return

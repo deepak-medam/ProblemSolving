@@ -1,4 +1,9 @@
 def printNto1(n):
+    """
+
+    :param n: 
+
+    """
     if n <= 0:
         return
     print(n)

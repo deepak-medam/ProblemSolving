@@ -26,6 +26,12 @@
 # Constraints:
 # 1 <= n <= 100
 def printArrayRecursively(arr, n):
+    """
+
+    :param arr: 
+    :param n: 
+
+    """
     # code here
     if n == 0:
         return

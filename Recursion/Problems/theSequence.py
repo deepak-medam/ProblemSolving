@@ -23,6 +23,11 @@
 
 
 def theSequence(n):
+    """
+
+    :param n: 
+
+    """
     # code here
     if n == 0:
         return 1

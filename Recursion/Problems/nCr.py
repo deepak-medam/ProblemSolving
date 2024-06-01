@@ -1,4 +1,10 @@
 def nCr(n, r):
+    """
+
+    :param n: 
+    :param r: 
+
+    """
     # code here
     if r == 0 or r == n:
         return 1
