@@ -5,4 +5,5 @@ def fun(n):
     fun(n-1)
     print(n)
 
+
 fun(3)

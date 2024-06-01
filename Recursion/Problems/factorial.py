@@ -13,7 +13,7 @@
 # Output: 1
 # Your Task:
 
-# Complete the function factorial that takes n as parameter and returns the factorial. 
+# Complete the function factorial that takes n as parameter and returns the factorial.
 
 # Expected Time Complexity: O(N).
 # Expected Auxiliary Space: O(N) (Recursive).
@@ -25,5 +25,6 @@ def factorial(n):
     if n == 0:
         return 1
     return n * factorial(n-1)
+
 
 print(factorial(5))

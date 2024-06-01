@@ -22,9 +22,10 @@
 # 1 <= n <= 10
 
 def theSequence(n):
-    #code here
+    # code here
     if n == 0:
         return 1
     return n+n*(theSequence(n-1))
+
 
 print(theSequence(2))

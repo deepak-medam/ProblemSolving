@@ -15,7 +15,7 @@
 # Output: 5
 # Explanation:Number of digit in 99999 is 5
 # Your Task:
-# You don't need to read input or print anything. Your task is to complete the function 
+# You don't need to read input or print anything. Your task is to complete the function
 # countDigits() that takes n as parameter and returns the count of digits in n.
 
 # Expected Time Complexity: O(Logn).
@@ -28,5 +28,6 @@ def countDigits(n):
     if n <= 0:
         return 0
     return countDigits(n//10) + 1
+
 
 print(countDigits(10))

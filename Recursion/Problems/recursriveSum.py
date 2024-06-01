@@ -22,7 +22,7 @@
 # 0 <= n <= 100
 
 def recursiveSum(n):
-    #code here
+    # code here
     if n == 0:
         return 0
     return recursiveSum(n-1) + n

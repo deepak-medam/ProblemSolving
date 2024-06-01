@@ -14,10 +14,10 @@
 # Input:
 # n = 20
 # Output:6765
-# Explanation: The 20th fibonacci 
+# Explanation: The 20th fibonacci
 # number is 6765
 # Your Task:
-# You don't need to read input or print anything. You only need to complete the function 
+# You don't need to read input or print anything. You only need to complete the function
 # fibonacci that takes n as parameters and returns the n-th fibonacci number.
 
 # Expected Time Complexity: O(2n).
@@ -32,5 +32,6 @@ def fibonacci(n):
     if n == 1:
         return 1
     return fibonacci(n-1) + fibonacci(n-2)
+
 
 print(fibonacci(20))

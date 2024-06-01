@@ -3,4 +3,6 @@ def fun(count):
         return
     print("Recursion is fun.")
     fun(count-1)
+
+
 fun(5)

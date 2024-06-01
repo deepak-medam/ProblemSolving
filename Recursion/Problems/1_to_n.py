@@ -5,6 +5,7 @@ def print1toN(n):
     print1toN(n-1)
     print(n)
 
+
 print1toN(4)
 
 # Problem 02
@@ -23,10 +24,10 @@ print1toN(4)
 # Input:
 # N = 5
 # Output: 1 2 3 4 5
- 
+
 
 # Your Task:
-# This is a function problem. You only need to complete the function printNos() that takes N as parameter 
+# This is a function problem. You only need to complete the function printNos() that takes N as parameter
 # and prints number from 1 to N recursively. Don't print newline, it will be added by the driver code.
 
 
@@ -37,8 +38,8 @@ print1toN(4)
 # Constraints:
 # 1 <= N <= 1000
 
-def printNos(self,N):
-    #Your code here
+def printNos(self, N):
+    # Your code here
     if N == 0:
         return
     self.printNos(N-1)

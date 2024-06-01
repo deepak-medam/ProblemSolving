@@ -1,5 +1,5 @@
 # Print Array Elements Using Recursion
-# You are given an array arr of size n. You need to print the array elements from start to end 
+# You are given an array arr of size n. You need to print the array elements from start to end
 # using given recursive function.
 
 
@@ -16,7 +16,7 @@
 # Output: 5 4 2 1
 
 # Your Task:
-# Complete the function printArrayRecursively() that takes array and size n as parameters 
+# Complete the function printArrayRecursively() that takes array and size n as parameters
 # and prints the array elements recursively. The newline is provided by driver code.
 
 # Expected Time Complexity: O(N).
@@ -24,9 +24,9 @@
 
 # Constraints:
 # 1 <= n <= 100
-def printArrayRecursively(arr,n):
-    #code here
+def printArrayRecursively(arr, n):
+    # code here
     if n == 0:
         return
-    printArrayRecursively(arr,n-1)
+    printArrayRecursively(arr, n-1)
     print(arr[n-1], end=" ")
