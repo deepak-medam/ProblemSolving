@@ -1,10 +1,10 @@
 def isPalindrome(st, start, end):
     if start >= end:
         return True
-    return (st[start] == st[end] and isPalindrome(st, start+1, end-1))
+    return st[start] == st[end] and isPalindrome(st, start + 1, end - 1)
 
 
-print(isPalindrome('abcdba', 0, 4))
+print(isPalindrome("abcdba", 0, 4))
 
 # Second version
 
@@ -12,7 +12,7 @@ print(isPalindrome('abcdba', 0, 4))
 def isPalRec(st, start, end):
     if start >= end:
         return True
-    return (st[start] == st[end] and isPalRec(st, start+1, end-1))
+    return st[start] == st[end] and isPalRec(st, start + 1, end - 1)
 
 
 def isPalin(N):
@@ -21,4 +21,4 @@ def isPalin(N):
     if len(st_n) == 0:
         return True
 
-    return isPalRec(st_n, 0, len(st_n)-1)
+    return isPalRec(st_n, 0, len(st_n) - 1)

@@ -24,10 +24,11 @@
 # Constraints:
 # 1 <= n <= 107
 
+
 def countDigits(n):
     if n <= 0:
         return 0
-    return countDigits(n//10) + 1
+    return countDigits(n // 10) + 1
 
 
 print(countDigits(10))

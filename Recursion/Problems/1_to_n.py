@@ -2,7 +2,7 @@
 def print1toN(n):
     if n == 0:
         return
-    print1toN(n-1)
+    print1toN(n - 1)
     print(n)
 
 
@@ -38,9 +38,10 @@ print1toN(4)
 # Constraints:
 # 1 <= N <= 1000
 
+
 def printNos(self, N):
     # Your code here
     if N == 0:
         return
-    self.printNos(N-1)
+    self.printNos(N - 1)
     print(N, end=" ")

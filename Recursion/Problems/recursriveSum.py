@@ -21,8 +21,9 @@
 # Constraints:
 # 0 <= n <= 100
 
+
 def recursiveSum(n):
     # code here
     if n == 0:
         return 0
-    return recursiveSum(n-1) + n
+    return recursiveSum(n - 1) + n

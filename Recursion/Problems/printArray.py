@@ -22,11 +22,12 @@
 # Expected Time Complexity: O(N).
 # Expected Auxiliary Space: O(N) (Recursive).
 
+
 # Constraints:
 # 1 <= n <= 100
 def printArrayRecursively(arr, n):
     # code here
     if n == 0:
         return
-    printArrayRecursively(arr, n-1)
-    print(arr[n-1], end=" ")
+    printArrayRecursively(arr, n - 1)
+    print(arr[n - 1], end=" ")
