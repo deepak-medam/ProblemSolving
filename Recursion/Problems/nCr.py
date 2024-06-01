@@ -1,8 +1,8 @@
 def nCr(n, r):
     """
 
-    :param n: 
-    :param r: 
+    :param n:
+    :param r:
 
     """
     # code here

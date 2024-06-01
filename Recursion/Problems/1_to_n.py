@@ -2,7 +2,7 @@
 def print1toN(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n == 0:
@@ -47,7 +47,7 @@ print1toN(4)
 def printNos(self, N):
     """
 
-    :param N: 
+    :param N:
 
     """
     # Your code here

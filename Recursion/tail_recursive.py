@@ -2,7 +2,7 @@
 def fun(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n <= 0:
@@ -14,7 +14,7 @@ def fun(n):
 def fun(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     while n != 0:
@@ -28,7 +28,7 @@ def fun(n):
 def fun_1(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n <= 0:
@@ -40,7 +40,7 @@ def fun_1(n):
 def fact(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n == 0:

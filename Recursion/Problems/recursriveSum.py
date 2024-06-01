@@ -19,7 +19,7 @@
 def recursiveSum(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     # code here

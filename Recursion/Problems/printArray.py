@@ -21,8 +21,8 @@
 def printArrayRecursively(arr, n):
     """
 
-    :param arr: 
-    :param n: 
+    :param arr:
+    :param n:
 
     """
     # code here

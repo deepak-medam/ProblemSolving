@@ -1,8 +1,8 @@
 def GCD(a, b):
     """
 
-    :param a: 
-    :param b: 
+    :param a:
+    :param b:
 
     """
     # code here

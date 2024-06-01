@@ -2,7 +2,7 @@
 def fun(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n <= 1:

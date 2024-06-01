@@ -22,7 +22,7 @@
 def countDigits(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n <= 0:

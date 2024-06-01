@@ -1,9 +1,9 @@
 def isPalindrome(st, start, end):
     """
 
-    :param st: 
-    :param start: 
-    :param end: 
+    :param st:
+    :param start:
+    :param end:
 
     """
     if start >= end:
@@ -19,9 +19,9 @@ print(isPalindrome("abcdba", 0, 4))
 def isPalRec(st, start, end):
     """
 
-    :param st: 
-    :param start: 
-    :param end: 
+    :param st:
+    :param start:
+    :param end:
 
     """
     if start >= end:
@@ -32,7 +32,7 @@ def isPalRec(st, start, end):
 def isPalin(N):
     """
 
-    :param N: 
+    :param N:
 
     """
     # code here

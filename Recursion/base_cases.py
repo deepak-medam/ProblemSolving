@@ -4,7 +4,7 @@
 def factorial(num):
     """
 
-    :param num: 
+    :param num:
 
     """
     if num == 0:
@@ -18,7 +18,7 @@ def factorial(num):
 def fibonacci(num):
     """
 
-    :param num: 
+    :param num:
 
     """
     if num == 1 or num == 0:

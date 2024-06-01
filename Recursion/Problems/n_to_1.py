@@ -1,7 +1,7 @@
 def printNto1(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n <= 0:

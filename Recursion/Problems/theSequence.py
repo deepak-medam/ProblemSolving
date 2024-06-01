@@ -19,7 +19,7 @@
 def theSequence(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     # code here

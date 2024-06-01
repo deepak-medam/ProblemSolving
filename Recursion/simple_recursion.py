@@ -1,7 +1,7 @@
 def fun(count):
     """
 
-    :param count: 
+    :param count:
 
     """
     if count == 0:
